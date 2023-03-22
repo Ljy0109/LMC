@@ -108,7 +108,7 @@ def calculate(image1, image2, h):
 
 
 if __name__ == '__main__':
-    img1, img2, H = read_files('E:\Code\PyCode\MAGSAC\data_set/all_hp')
+    img1, img2, H = read_files('part_of_datasets/hpatches-sequences-release')
     recall_LMC_RANSAC, recall_LMC_LPM, \
     precision_LMC_RANSAC, precision_LMC_LPM, \
     F_s_LMC_RANSAC, F_s_LMC_LPM, \
